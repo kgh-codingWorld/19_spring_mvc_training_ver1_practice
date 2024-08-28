@@ -11,7 +11,7 @@ public class BoardController {
 	@GetMapping
 	public String main() {
 		return "board/boardMain";
-	}
+	} 
 	
 	@GetMapping("/createBoard")
 	public String createBoard() {
